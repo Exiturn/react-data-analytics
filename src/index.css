@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes background-pan {
+  from {
+    background-position: 0% center;
+  }
+
+  to {
+    background-position: -200% center;
+  }
+}
+
+body {
+  background-color: #000300
+}
+
+.purple-text-gradient {
+  animation: background-pan 3s linear infinite;
+  background: linear-gradient(90deg, #774caf 0%, #c9befa 50%, #774caf 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200%;
+  white-space: nowrap;
+  font-size: 3rem;
+}
