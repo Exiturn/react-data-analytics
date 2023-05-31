@@ -16,15 +16,14 @@ const Navbar: React.FC = () => {
     <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white relative'>
       <h1 className='w-full text-2xl font-bold py-2 purple-text-gradient'>REACT.</h1>
 
-      <ul className='flex hidden'>
-        <li className='p-4'>Home</li>
-        <li className='p-4'>Company</li>
-        <li className='p-4'>Resources</li>
-        <li className='p-4'>About</li>
-        <li className='p-4'>Contact</li>
+      <ul className='hidden md:flex w-[100%] h-[3rem] justify-end'>
+        <li className={`${styles.navLink}`}><span className={`${styles.navSpan}`}>Home</span></li>
+        <li className={`${styles.navLink}`}><span className={`${styles.navSpan}`}>Account</span></li>
+        <li className={`${styles.navLink}`}><span className={`${styles.navSpan}`}>Sign In</span></li>
+        <li className={`${styles.navButton}`}>Get Started</li>
       </ul>
 
-      <div className='cursor-pointer' onClick={handleNav}>
+      <div className='cursor-pointer block md:hidden' onClick={handleNav}>
         {isOpen ? <AiOutlineClose size={25} /> : <AiOutlineMenu size={25} />}
       </div>
 
