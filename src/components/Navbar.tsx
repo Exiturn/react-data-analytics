@@ -13,8 +13,8 @@ const Navbar: React.FC = () => {
 
   return (
     // 
-    <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white relative'>
-      <h1 className='w-full text-2xl font-bold py-2 purple-text-gradient'>REACT.</h1>
+    <div className={`${styles.sectionStyle} relative justify-between h-24`}>
+      <h1 className='w-full text-[3rem] font-bold py-2 purple-text-gradient'>REACT.</h1>
 
       <ul className='hidden md:flex w-[100%] h-[3rem] justify-end'>
         <li className={`${styles.navLink}`}><span className={`${styles.navSpan}`}>Home</span></li>

@@ -14,10 +14,19 @@
   }
 }
 
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #000300;
   font-family: 'Space Grotesk', sans-serif;
   letter-spacing: 1.5px;
+  color: white;
+  margin: 0;
 }
 
 .purple-text-gradient {
@@ -27,13 +36,20 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-size: 200%;
-  white-space: nowrap;
-  font-size: 3rem;
+  white-space: wrap;
 }
 
 .purple-gradient {
   animation: background-pan 3s linear infinite;
   background: linear-gradient(90deg, #774caf 0%, #c9befa 50%, #774caf 100%);
+  background-size: 200%;
+  white-space: nowrap;
+  font-size: 3rem;
+}
+
+.purple-gradient-black {
+  animation: background-pan 3s linear infinite;
+  background: linear-gradient(70deg, #774caf 0%, #7063c5 50%, #774caf 100%);
   background-size: 200%;
   white-space: nowrap;
   font-size: 3rem;
