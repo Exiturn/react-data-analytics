@@ -23,7 +23,22 @@ const styles = {
      */
 
     heroButton:
-    "w-[10.5rem] py-[1rem] px-[1.75rem] cursor-pointer bg-white text-black tracking-widest rounded-lg ml-2 font-medium text-[0.975rem] hover:text-white hover:bg-gradient-to-r from-[#774caf] to-[#68628d] transition duration-500",
+    "w-[10.5rem] py-[1rem] px-[1.75rem] cursor-pointer bg-white text-black tracking-widest rounded-lg font-medium text-[0.975rem] hover:text-white hover:bg-gradient-to-r from-[#774caf] to-[#68628d] transition duration-500",
+
+    heroContainer:
+    "max-w-[800px] w-[100%] h-full text-center flex flex-col justify-center",
+
+    heroEyebrow:
+    "purple-text-gradient font-bold p-2 text-base sm:text-lg md:text-xl",
+
+    heroHeader:
+    "md:text-7xl sm:text-6xl text-4xl font-bold md:py-6",
+
+    heroSubHeader:
+    "md:text-2xl sm:text-xl text-sm font-bold py-4",
+
+    heroParagraph:
+    "md:text-lg text-xs font-bond text-gray-400 w-[75%] lg:w-full place-self-center"
 
 
 };
