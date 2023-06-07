@@ -1,6 +1,6 @@
 const styles = {
     sectionStyle:
-    "flex items-center max-w-[1240px] mx-auto px-4 text-white",
+    "flex items-center justify-center mx-auto max-w-[1240px] h-full px-4 text-white",
 
     /**
      * * NAVBAR STYLES
@@ -10,7 +10,7 @@ const styles = {
     "fixed overflow-x-hidden left-0 right-0 top-0 w-[14rem] h-full border-r border-r-gray-900 bg-[#000300] transform transition-all duration-500 z-30",
 
     navButton:
-    "w-[9.5rem] py-[0.75rem] px-[1.25rem] cursor-pointer bg-white text-black rounded-lg ml-2 font-medium text-[0.975rem] hover:text-white hover:bg-gradient-to-r from-[#774caf] to-[#68628d] transition duration-500",
+    "w-[9.5rem] py-[0.75rem] px-[1.25rem] cursor-pointer bg-white text-black rounded-lg ml-2 font-medium text-[0.975rem] text-center hover:text-white hover:bg-gradient-to-r from-[#774caf] to-[#68628d] transition duration-500",
 
     navLink:
     "p-3 text-center cursor-pointer w-[7rem] hover:text-[#c9befa] transition-all duration-300 inline-block",

@@ -6,7 +6,7 @@ import styles from '../styles';
 
 const Hero: React.FC = () => {
     return (
-        <div className={`${styles.sectionStyle} justify-center mt-[9rem] md:mt-[13rem] h-[10rem]`}>
+        <div className={`${styles.sectionStyle} mt-[2rem] md:mt-[8rem]`}>
             <div className={`${styles.heroContainer}`}>
                 <p className={`${styles.heroEyebrow}`}>GROWING WITH DATA ANALYTICS</p>
                 <h1 className={`${styles.heroHeader}`}>Grow with data.</h1>
