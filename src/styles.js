@@ -1,6 +1,6 @@
 const styles = {
     sectionStyle:
-    "flex items-center justify-center mx-auto max-w-[1240px] h-full px-4 text-white",
+    "flex items-center justify-center mx-auto max-w-[100vw] h-full px-4 text-white",
 
     importantSpan:
     "before:block before:absolute before:-inset-y-0.5 before:-inset-x-0.5 before:-skew-y-1 before:bg-gradient-to-r from-[#774caf] to-[#84d1c9] relative inline-block",
@@ -48,19 +48,41 @@ const styles = {
      */
 
     analyticsSection:
-    "flex items-center justify-center mx-auto max-w-[100vw] h-full px-4 text-white mt-[2rem] md:my-[8rem]",
+    "flex items-center justify-center mx-auto max-w-[100vw] h-full px-4 text-white mt-[2rem] md:mt-[8rem]",
     
     analyticsContainer:
-    "flex flex-col md:flex-row justify-center items-center my-6 md:my-10",
+    "flex flex-col lg:flex-row justify-center items-center my-6 md:my-10",
 
     analyticsEyebrow:
     "purple-text-gradient font-bold text-base sm:text-lg md:text-xl mt-2",
 
     analyticsHeader:
-    "md:text-5xl text-4xl font-bold text-center mt-2",
+    "md:text-5xl text-4xl font-bold mt-2",
         
     analyticsButton:
     "w-[10.5rem] py-[1rem] px-[1.75rem] mt-4 cursor-pointer bg-black text-white tracking-widest rounded-lg font-medium text-[0.975rem] hover:text-black hover:bg-gradient-to-r from-[#774caf] to-[#84d1c9] transition duration-500",
+
+    /**
+     * NEWSLETTER STYLES
+     */
+
+    newsletterContainer:
+    "flex flex-col md:flex-row w-full justify-center items-center gap-[3rem] md:gap-[4rem] my-10",
+
+    newsletterHeader:
+    "md:text-5xl text-2xl font-bold mt-2 lg:max-w-[50vw]",
+
+    newsletterSubHeader:
+    "md:text-lg text-sm font-bold purple-text-gradient",
+
+    newsletterInput:
+    "w-full md:w-[55%] rounded-md py-[0.75rem] px-3 mb-3 md:mb-0 text-black",
+
+    newsletterButton:
+    "w-full md:w-[40%] py-[0.85rem] px-3 cursor-pointer bg-gradient-to-r from-[#774caf] to-[#84d1c9] text-white tracking-widest rounded-lg font-medium text-[0.9rem] hover:text-black hover:bg-white transition duration-500",
+
+    newsletterPolicy:
+    "w-auto inline-block text-xs underline cursor-pointer italic hover:text-[#c9befa] transition-colors duration-300",
 
 };
 
