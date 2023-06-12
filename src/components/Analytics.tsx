@@ -16,22 +16,22 @@ const AnimatedCloud = () => {
           repeat: Infinity,
           repeatType: 'loop'
         }}
-        className="relative w-[100px] md:w-[250px] lg:w-[300px]"
+        className={`${styles.cloudRightSize}`}
       >
-        <motion.img className="absolute md:left-[250px] md:top-[1vh]" src={cloud} alt="cloud" />
+        <motion.img className={`${styles.cloudRightPosition}`} src={cloud} alt="cloud right" />
       </motion.div>
       <motion.div
         animate={{
-          y: [0, 25, 0]
+          y: [0, 27, 0]
         }}
         transition={{
           duration: 7,
           repeat: Infinity,
           repeatType: 'loop'
         }}
-        className="relative w-[100px] md:w-[250px] lg:w-[320px]"
+        className={`${styles.cloudLeftSize}`}
       >
-        <motion.img className="absolute md:left-[-85px] md:top-[-4vh]" src={cloud} alt="cloud" />
+        <motion.img className={`${styles.cloudLeftPosition}`} src={cloud} alt="cloud left" />
       </motion.div>
     </div>
   )

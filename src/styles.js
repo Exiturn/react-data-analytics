@@ -62,6 +62,18 @@ const styles = {
     analyticsButton:
     "w-[10.5rem] py-[1rem] px-[1.75rem] mt-4 cursor-pointer bg-black text-white tracking-widest rounded-lg font-medium text-[0.975rem] hover:text-black hover:bg-gradient-to-r from-[#774caf] to-[#84d1c9] transition duration-500",
 
+    cloudLeftSize:
+    "relative w-[35vw] md:w-[45vw] lg:w-[30vw]",
+
+    cloudLeftPosition:
+    "absolute left-[50vw] md:left-[-20vw] md:top-[-5vh] lg:left-[-10vw] lg:top-[1vw] xl:left-[-10vw] xl:top-[1vh] 2xl:left-[-4vw] 2xl:top-[4vh]",
+
+    cloudRightSize:
+    "relative w-[40vw] md:w-[45vw] lg:w-[35vw]",
+
+    cloudRightPosition:
+    "absolute left-[-5vw] md:left-[30vw] md:top-[5vh] lg:left-[25vw] xl:left-[25vw] 2xl:left-[30vw]",
+
     /**
      * NEWSLETTER STYLES
      */
