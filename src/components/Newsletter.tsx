@@ -4,7 +4,7 @@ import styles from '../styles';
 
 const Newsletter: React.FC = () => {
     return (
-        <div className={`${styles.sectionStyle}`}>
+        <div className={`${styles.sectionStyle} my-4`}>
             <div className={`${styles.newsletterContainer}`}>
                 <div>
                     <h1 className={`${styles.newsletterHeader}`}>Want tips & tricks to optimize your workflow?</h1>

@@ -48,7 +48,7 @@ const styles = {
      */
 
     analyticsSection:
-    "flex items-center justify-center mx-auto max-w-[100vw] h-full px-4 text-white mt-[2rem] md:mt-[8rem]",
+    "flex items-center justify-center mx-auto max-w-[100vw] h-full px-4 text-black mt-[2rem] md:mt-[8rem]",
     
     analyticsContainer:
     "flex flex-col lg:flex-row justify-center items-center my-6 md:my-10",

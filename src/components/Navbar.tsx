@@ -12,7 +12,6 @@ const Navbar: React.FC = () => {
   }
 
   return (
-    // 
     <div className={`${styles.sectionStyle} relative justify-between h-24`}>
       <h1 className='w-full text-[3rem] font-bold py-2 purple-text-gradient'>REACT.</h1>
 
