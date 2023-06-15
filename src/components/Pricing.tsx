@@ -2,10 +2,6 @@ import React from 'react'
 
 import { FaStar, FaUser, FaUsers, FaUserFriends } from "react-icons/fa";
 
-import user from '../assets/user.png';
-import partnership from '../assets/partnership.png';
-import group from '../assets/group.png';
-
 import styles from '../styles';
 
 const Pricing: React.FC = () => {
@@ -59,9 +55,8 @@ const Pricing: React.FC = () => {
                         </div>
                         
                         {item.image}
-                        {/* <img src={item.image} alt={item.id} className='max-w-[4rem]' /> */}
                         <p className='md:text-3xl text-sm font-bold purple-text-gradient'>{item.id}</p>
-                        <h1>{item.price}</h1>
+                        <h1 className='text-3xl font-semibold'>{item.price}</h1>
                         <div className='text-center'>
                             <p>{item.storage}</p>
                             <p>{item.users}</p>
