@@ -54,3 +54,10 @@ body {
   white-space: nowrap;
   font-size: 3rem;
 }
+
+.icon-gradient {
+  background: 'linear-gradient(45deg, #ff00ff, #00ffff)';
+  display: 'inline-block';
+  padding: '10px';
+  border-radius: '50%'
+}

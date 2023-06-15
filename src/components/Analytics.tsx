@@ -41,14 +41,14 @@ const Analytics: React.FC = () => {
   return (
     <div className={`${styles.analyticsSection} bg-white`}>
       <div className={`${styles.analyticsContainer}`}>
-        <div className='max-w-[80vw] sm:max-w-[50vw] relative'>
+        <div className='max-w-[50vw] sm:max-w-[50vw] relative'>
           <AnimatedCloud />
           <img className='p-3' src={analytics} alt="Analytics Image" />
         </div>
         <div className='flex flex-col justify-center items-start text-black py-4 z-20'>
           <p className={`${styles.analyticsEyebrow}`}>DATA ANALYTICS DASHBOARD</p>
           <h1 className={`${styles.analyticsHeader}`}>Manage Data Analytics Centrally</h1>
-          <p className='mt-4'>In today's fast-paced world,
+          <p className='mt-4 xl:pr-10'>In today's fast-paced world,
             <span className={`${styles.importantSpan}`}>
               <span className='relative text-white'>data is the key to success.</span>
             </span> <br />

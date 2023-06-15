@@ -5,6 +5,11 @@ const styles = {
     importantSpan:
     "before:block before:absolute before:-inset-y-0.5 before:-inset-x-0.5 before:-skew-y-1 before:bg-gradient-to-r from-[#774caf] to-[#84d1c9] relative inline-block",
 
+    primaryButton:
+    "w-[10.5rem] py-[1rem] px-[1.5rem] cursor-pointer bg-white text-black tracking-widest rounded-lg ml-2 font-medium text-[0.975rem] text-center hover:text-white hover:bg-gradient-to-r from-[#774caf] to-[#84d1c9] transition duration-500",
+
+    secondaryButton:
+    "w-[10.5rem] py-[1rem] px-[1.5rem] cursor-pointer bg-black text-white tracking-widest rounded-lg font-medium text-[0.975rem] hover:text-black hover:bg-gradient-to-r from-[#774caf] to-[#84d1c9] transition duration-500",
     /**
      * * NAVBAR STYLES 84d1c9 c9befa
      */
@@ -48,7 +53,7 @@ const styles = {
      */
 
     analyticsSection:
-    "flex items-center justify-center mx-auto max-w-[100vw] h-full px-4 text-black mt-[2rem] md:mt-[8rem]",
+    "flex items-center justify-center mx-auto mt-[2rem] md:mt-[8rem] px-4 max-w-[100vw] h-full text-black ",
     
     analyticsContainer:
     "flex flex-col lg:flex-row justify-center items-center my-6 md:my-10",
@@ -58,21 +63,21 @@ const styles = {
 
     analyticsHeader:
     "md:text-5xl text-4xl font-bold mt-2",
-        
+
     analyticsButton:
     "w-[10.5rem] py-[1rem] px-[1.75rem] mt-4 cursor-pointer bg-black text-white tracking-widest rounded-lg font-medium text-[0.975rem] hover:text-black hover:bg-gradient-to-r from-[#774caf] to-[#84d1c9] transition duration-500",
-
+        
     cloudLeftSize:
     "relative w-[35vw] md:w-[45vw] lg:w-[30vw]",
 
     cloudLeftPosition:
-    "absolute left-[50vw] md:left-[-20vw] md:top-[-5vh] lg:left-[-10vw] lg:top-[1vw] xl:left-[-10vw] xl:top-[1vh] 2xl:left-[-4vw] 2xl:top-[4vh]",
+    "absolute left-[-10vw] top-[0vh] md:left-[-20vw] md:top-[-5vh] lg:left-[-10vw] lg:top-[1vw] xl:left-[-10vw] xl:top-[1vh] 2xl:left-[-4vw] 2xl:top-[4vh]",
 
     cloudRightSize:
     "relative w-[40vw] md:w-[45vw] lg:w-[35vw]",
 
     cloudRightPosition:
-    "absolute left-[-5vw] md:left-[30vw] md:top-[5vh] lg:left-[25vw] xl:left-[25vw] 2xl:left-[30vw]",
+    "absolute left-[30vw] md:left-[30vw] md:top-[5vh] lg:left-[25vw] xl:left-[25vw] 2xl:left-[30vw]",
 
     /**
      * NEWSLETTER STYLES
