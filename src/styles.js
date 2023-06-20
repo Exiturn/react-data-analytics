@@ -10,6 +10,10 @@ const styles = {
 
     secondaryButton:
     "w-[10.5rem] py-[1rem] px-[1.5rem] cursor-pointer bg-black text-white tracking-widest rounded-lg font-medium text-[0.975rem] hover:text-black hover:bg-gradient-to-r from-[#774caf] to-[#84d1c9] transition duration-500",
+    
+    tertiaryButton:
+    "w-[10.5rem] py-[1rem] px-[1.5rem] cursor-pointer bg-black tracking-widest rounded-lg ml-2 font-medium text-[0.975rem] text-center hover:text-black hover:bg-white transition duration-500",
+
     /**
      * * NAVBAR STYLES 84d1c9 c9befa
      */
@@ -49,7 +53,7 @@ const styles = {
     "md:text-lg text-xs font-bond text-gray-400 w-[75%] lg:w-full place-self-center",
 
     /**
-     * ANALYTICS STYLES
+     * * ANALYTICS STYLES
      */
 
     analyticsSection:
@@ -80,7 +84,7 @@ const styles = {
     "absolute left-[30vw] md:left-[30vw] md:top-[5vh] lg:left-[25vw] xl:left-[25vw] 2xl:left-[30vw]",
 
     /**
-     * NEWSLETTER STYLES
+     * * NEWSLETTER STYLES
      */
 
     newsletterContainer:
@@ -101,6 +105,30 @@ const styles = {
     newsletterPolicy:
     "w-auto inline-block text-xs underline cursor-pointer italic hover:text-[#c9befa] transition-colors duration-300",
 
+    /**
+     * * PRICING STYLES
+     */
+
+    pricingSection:
+    'flex flex-col items-center justify-center mx-auto max-w-[100vw] h-full px-4 text-black bg-white',
+
+    pricingHeader:
+    'md:text-5xl text-4xl font-bold mt-6 md:mt-10 text-black',
+
+    pricingParagraph:
+    'mb-6 md:mb-10 mt-2 md:text-lg text-xs font-bond text-gray-500 place-self-center text-start md:text-center max-w-full lg:max-w-[60vw]',
+
+    pricingContainer:
+    'flex lg:flex-wrap lg:flex-row flex-col gap-16 my-6 md:my-10 w-full justify-center',
+
+    pricingCard:
+    'flex flex-col justify-between items-center gap-6 w-full lg:w-[25rem] min-h-full p-5 my-3 lg:my-0 rounded-lg relative',
+
+    pricingPopular:
+    'flex flex-row justify-center items-center gap-2 min-w-full max-h-[100px] p-2 rounded-tr-md rounded-tl-md bg-black absolute top-[-5vh] text-white font-base text-base md:text-xl',
+
+    pricingList:
+    'border-y-[1px] border-gray-300 py-6 w-full flex flex-col items-center',
 };
 
 export default styles;
