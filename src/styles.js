@@ -122,10 +122,10 @@ const styles = {
     'flex lg:flex-wrap lg:flex-row flex-col gap-16 my-6 md:my-10 w-full justify-center',
 
     pricingCard:
-    'flex flex-col justify-between items-center gap-6 w-full lg:w-[25rem] min-h-full p-5 my-3 lg:my-0 rounded-lg relative',
+    'flex flex-col justify-between items-center gap-6 w-full lg:w-[25rem] min-h-full p-5 my-3 lg:my-0 rounded-lg relative transition-transform duration-300 ease-in-out hover:scale-y-110 lg:hover:scale-105',
 
     pricingPopular:
-    'flex flex-row justify-center items-center gap-2 min-w-full max-h-[100px] p-2 rounded-tr-md rounded-tl-md bg-black absolute top-[-5vh] text-white font-base text-base md:text-xl',
+    'flex flex-row justify-center items-center gap-2 min-w-full max-h-[100px] p-2 rounded-tr-md rounded-tl-md bg-black absolute top-[-4vh] text-white font-base text-base md:text-xl',
 
     pricingList:
     'border-y-[1px] border-gray-300 py-6 w-full flex flex-col items-center',
