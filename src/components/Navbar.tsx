@@ -9,8 +9,6 @@ const Navbar: React.FC = () => {
   
   const handleNav = () => {
     setIsOpen(!isOpen);
-    const [active, setactive] = useState('');
-    const [toggle, setToggle] = useState(false);
   }
 
   return (

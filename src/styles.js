@@ -129,6 +129,25 @@ const styles = {
 
     pricingList:
     'border-y-[1px] border-gray-300 py-6 w-full flex flex-col items-center',
+
+    /**
+     * * FOOTER STYLES
+     */
+
+    footerContainer:
+    'flex flex-col md:flex-row justify-between items-center w-[100vw]',
+
+    footerContent:
+    'w-full text-center md:text-start',
+
+    footerHeader:
+    'w-full md:w-[30%] text-[1.8rem] sm:text-[3vw] xl:text-[1.8rem] font-bold purple-text-gradient',
+
+    footerParagraph:
+    'w-[50%] hidden sm:inline-block text-xs',
+
+    footerSocials:
+    'flex flex-row justify-center items-center w-full md:w-[30%] gap-5 mt-2',
 };
 
 export default styles;

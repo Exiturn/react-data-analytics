@@ -1,6 +1,6 @@
 import React from 'react'
 
-import {   
+import {
   FaDribbbleSquare,
   FaFacebookSquare,
   FaGithubSquare,
@@ -12,19 +12,21 @@ import styles from '../styles';
 
 const Footer: React.FC = () => {
   return (
-    <div className={`${styles.sectionStyle} relative justify-between h-24 max-w-[100vw] xl:max-w-[85vw] my-6`}>
-      <div className='flex flex-col max-w-full sm:max-w-[30vw] xl:max-w-[20vw]'>
-        <h1 className='w-full text-[1.8rem] sm:text-[3vw] xl:text-[1.8rem] font-bold purple-text-gradient'>INSIGHTIFY.</h1>
-        <p className='my-5 hidden sm:inline-block'>Unlock your app's potential with Insightify. Real-time metrics, actionable insights, and growth optimization.</p>
-        <div className='flex flex-row justify-between items-center'>
-          <FaFacebookSquare size={30}/>
-          <FaInstagram size={30}/>
-          <FaTwitterSquare size={30}/>
-          <FaGithubSquare size={30}/>
-          <FaDribbbleSquare size={30}/>
+    <footer className={`${styles.sectionStyle} relative justify-between md:h-24 max-w-[100vw] xl:max-w-[85vw] my-6`}>
+      <div className={`${styles.footerContainer}`}>
+        <div className={`${styles.footerContent}`}>
+          <h1 className={`${styles.footerHeader}`}>INSIGHTIFY.</h1>
+          <p className={`${styles.footerParagraph}`}>Unlock your app's potential with Insightify. Real-time metrics, actionable insights, and growth optimization.</p>
+        </div>
+        <div className='flex flex-row justify-center items-center w-full md:w-[30%] gap-5 mt-2'>
+          <FaFacebookSquare className="cursor-pointer" size={25} />
+          <FaInstagram className="cursor-pointer" size={25} />
+          <FaTwitterSquare className="cursor-pointer" size={25} />
+          <FaGithubSquare className="cursor-pointer" size={25} />
+          <FaDribbbleSquare className="cursor-pointer" size={25} />
         </div>
       </div>
-    </div>
+    </footer>
   )
 }
 
